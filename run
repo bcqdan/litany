@@ -1,0 +1,13 @@
+python3 \
+stamp.py \
+input.webp \
+litany.txt \
+output.png \
+--width_percentage 72 \
+--height_percentage 40 \
+--center_x_percentage 50 \
+--center_y_percentage 50 \
+--rect_color 0 0 0 \
+--opacity 150 \
+--font_size 42 && \
+open output.png
